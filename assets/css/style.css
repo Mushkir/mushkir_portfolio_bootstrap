@@ -6,7 +6,7 @@
   --gray: #9a9898;
 }
 
-.container-fluid {
+.header-container {
   background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(../img/web-development-background.jpg);
   height: 100vh;
@@ -96,4 +96,14 @@
       #4f5bd5
     );
     transition: 0.5s;
+  }
+
+  /* About Section */
+  .cdn-link:hover {
+    color: #fff !important; 
+    transition: 0.5s;
+  }
+
+  .letter-space {
+    letter-spacing: 0.031rem;
   }
