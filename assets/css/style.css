@@ -15,35 +15,85 @@
 }
 
 .navbar-brand:hover {
-    color: var(--dark-orange) !important;
+  color: var(--dark-orange) !important;
 }
 
 /* Nav Bar */
 .navbar-brand {
-    color: var(--dark-orange);
+  color: var(--dark-orange);
 }
 
-.btn{
-    border: 1px solid var(--dark-orange);
+.btn {
+  border: 1px solid var(--dark-orange);
 }
 
 .fa-download {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar-toggler {
-    background: var(--dark-orange);
+  background: var(--dark-orange);
 }
 
 .nav-link:hover {
-    color: #fff !important;
-    transition: 0.5s;
-    background: var(--dark-orange);
-    border-radius: 5px;
+  color: #fff !important;
+  transition: 0.5s;
+  background: var(--dark-orange);
+  border-radius: 5px;
 }
 
 .download-btn:hover {
-    background: var(--dark-orange);
-    color: #fff !important;
+  background: var(--dark-orange);
+  color: #fff !important;
 }
 
+/* Hero Detail */
+.margin-top {
+  margin-top: 150px;
+}
+
+.para {
+  letter-spacing: 1.5px;
+}
+
+.hero {
+  width: 100%;
+  white-space: nowrap;
+  animation: typeAnimation 2s, cursor 0.4s step-end infinite alternate;
+}
+
+/* Cursor Blinking */
+@keyframes cursor {
+  50% {
+    border-right: transparent;
+  }
+}
+
+/* Typing Effect */
+@keyframes typeAnimation {
+  from {
+    width: 0;
+  }
+}
+
+.fa-linkedin-in:hover {
+    background: #0a66c2;
+    transition: 0.5s;
+  }
+  
+  .fa-github:hover {
+    background: #171515;
+    transition: 0.5s;
+  }
+  
+  .fa-instagram:hover {
+    background: linear-gradient(
+      45deg,
+      #feda75,
+      #fa7e1e,
+      #d62976,
+      #962fbf,
+      #4f5bd5
+    );
+    transition: 0.5s;
+  }
