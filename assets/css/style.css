@@ -1,0 +1,49 @@
+:root {
+  --primary-dark-color: #1f2233;
+  --secondary-dark-color: #23283c;
+  --dark-orange: #ff5158;
+  --light-orange: #ff5d53;
+  --gray: #9a9898;
+}
+
+.container-fluid {
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../img/web-development-background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-brand:hover {
+    color: var(--dark-orange) !important;
+}
+
+/* Nav Bar */
+.navbar-brand {
+    color: var(--dark-orange);
+}
+
+.btn{
+    border: 1px solid var(--dark-orange);
+}
+
+.fa-download {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background: var(--dark-orange);
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    transition: 0.5s;
+    background: var(--dark-orange);
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background: var(--dark-orange);
+    color: #fff !important;
+}
+
