@@ -108,11 +108,15 @@
   letter-spacing: 0.031rem;
 }
 
+.font-size-14px {
+  font-size: 14px;
+}
+
 
 /* Media Queries */
-@media screen and (max-width:575px) {
+@media screen and (max-width:575px) {  
   .less-than-575px img {
+    display: flex !important;
     width: 150px !important;
-  }
-  
+  } 
 }
